@@ -1,90 +1,247 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-header{
-    background-color:#d2ebe2;
-    width:100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+
+h1{
+    color: rgb(42, 140, 165);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
-a{
+
+
+body{
+    padding-top:87px;
+    background-image: url(imagenes/fondohtmldemo.jpg);
+}
+
+nav a {
     text-decoration: none;
 }
+
+nav img{
+    margin: 0% 10% 0% ;
+    width: 180px;
+}
+
 header ul{
     list-style: none;
     display: flex;
-    flex-direction: row;
 }
 header ul li{
-    margin: 10px;
-    color: rgb(38, 102, 75);
+    padding: 15px;
+    color:black;
+    margin: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Arsenal SC", sans-serif;
 }
-img{
-    width: 180px;
-}
-h1{
-    color: rgb(42, 165, 89);
+header h1{
+    width:100%;
+    height: 10px;
+    text-align: center;
+    color: black;
+}   
+
+.bienvenida h1 {
+    margin-top: 100px;
+    text-align:center;
+    color: rgb(42, 140, 165);
     font-size: 35px;
     font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
-p{
-    color: rgb(187, 172, 172);
-    font-size: 40px;
+
+.bienvenida p{
+    font-family: "Arsenal SC", sans-serif;
+    text-align: center;
 }
+
+#yo{
+    padding-top:80px;
+}
+
+#yo p{
+    color: black;
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100; 
+}
+
+#yo h1, p{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align:start;
+}
+
+#yo img{
+    border-radius: 50%;
+    margin-top: 20px;
+    float: left;
+}
+
+.carousel-inner img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+#oriflame {
+    padding-top:80px;
+}
+
+#oriflame h1{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align:start;
+}
+
+
+#oriflame p{
+    color: black;
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100; 
+}
+
+.logo img{
+    margin: 0px 10px 0px 450px;
+    width: 50px;
+    float: inline-start;
+}
+
 .contenedores{
     display:flex;
     flex-direction: row;
-    background-color: antiquewhite;
-    margin: 5px 0 5px 0;
+    margin: 25px 10px 25px 10px;
 }
-.caja{
+
+.contenedores h4{
+    color: rgb(42, 140, 165);
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.contenedores p, li{
+    color: black;
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.historia img{
+    width: 300px;
+}  
+
+.eficiencia{
     display:flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
     padding: 20px;
 }
-.lienzo img{
-    width: 135px;
-    border-radius: 50%;
-}  
-.lienzo{
-    display: flex;
+
+.eficiencia img{
+    width: 270px;
+}
+
+.etica{
+    display:flex;
     flex-direction: column;
-    align-items: center;
-    padding: 20px;
     width: 100%;
+    align-items: center;
+    padding: 15px;
 }
-.lienzo p{
-    font-size: 20px;
+
+.etica img{
+    width: 250px;
+    height: 185px;
 }
-.caja img{
-    border-radius: 50%;
+
+.etica li{
+    list-style-type:"🔹";
 }
-.caja p{
-    font-size: 20px;
+
+
+#test{
+    margin: 0px 50px 20px 50px;
+    padding: 40px;
+    display: flex;
+    background-color: #ca9c462a;
+} 
+
+#test img{
+    float: left;
+    width: 300px;
 }
-.cajaen{
+
+#test h1{
+    color: rgb(42, 140, 165);
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 10px;
+    text-align:center;
 }
-.cajaen p{
-    font-size: 25px;
-    margin: 5px;
+
+#test p{
+    display: contents;
+    flex-direction: column;
+    justify-content: end;
 }
-.cajaen h1{
-    font-size: 35px;
-    margin: 5px;
-    font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+
+.wellosophy{
+    margin: 0px 50px 20px 50px;
+    padding: 50px;
+    display: flex;
+    background-color: #ca9c462a;
 }
+
+.wellosophy img{
+    float: left;
+    width: 300px;
+}
+
+.wellosophy h1{
+    color: rgb(42, 140, 165);
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+
 #nosotros{
     width: 100%;
     display: flex;
@@ -96,8 +253,40 @@ p{
     padding: 10px;
     margin: 10px;
 }
-.carousel-inner img{
-    width: 500px;
-    height: 500px;
+
+.carrusel2 img{
+    width: 300px;
+    height: 300px;
     margin: auto;
+    overflow-block:auto;
+}
+
+.botonesredes{
+    background-color: transparent;
+    border: none;
+    width: 40px;
+    height: 40px;
+}
+.botonesredes img{
+    width: 40px;
+    height: 40px
+}
+.youtube img{
+    width: 70px;
+    height: 70px;
+}
+.tiktok img{
+    width: 45px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+.insta{
+    margin-right: 35px;
+}
+
+.texto h5{
+    display: inline;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
 }
