@@ -22,7 +22,7 @@ nav a {
 }
 
 nav img{
-    margin: 0% 10% 0% ;
+    margin: 0% 25% 0% ;
     width: 180px;
 }
 
@@ -31,7 +31,7 @@ header ul{
     display: flex;
 }
 header ul li{
-    padding: 15px;
+    padding: 12px;
     color:black;
     margin: 0px 30px 0px 30px;
     display: flex;
@@ -46,7 +46,8 @@ header h1{
 }   
 
 .bienvenida h1 {
-    margin-top: 100px;
+    margin-top: 40px;
+    margin-bottom: 0;
     text-align:center;
     color: rgb(42, 140, 165);
     font-size: 35px;
@@ -78,23 +79,64 @@ header h1{
     margin: 20px;
     display: flex;
     flex-direction: column;
-    text-align:start;
+    text-align:center;
 }
 
 #yo img{
     border-radius: 50%;
-    margin-top: 20px;
-    float: left;
+    margin-left: 560px;
 }
 
-.carousel-inner img{
-    width: 300px;
-    height: 300px;
-    margin: auto;
+.conocenos{
+    background-color: #ca9c462a; 
+    margin: 50px 50px 0 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 30px 30px 0 0;
+    padding-top: 40px;
+}
+
+.conocenos-2 {
+    background-color: #ca9c462a;
+    margin: 0 50px 50px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 0 0 30px 30px;
+    padding-bottom: 40px;
+}
+
+.cuadros, .cuadros-2 {
+    text-align: center;
+}
+
+
+.cuadros h5, .cuadros-2 h5 {
+    color: #009da8ee;
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100; 
+}
+
+.cuadros h6, .cuadros-2 h6{
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100; 
+}
+
+.cuadros img, .cuadros-2 img {
+    width: 280px;
+    padding: 20px 20px 10px 20px;
+    border-radius: 20px;
 }
 
 #oriflame {
-    padding-top:80px;
+    padding-top:50px;
 }
 
 #oriflame h1{
@@ -153,7 +195,7 @@ header h1{
 }
 
 .historia img{
-    width: 300px;
+    width: 268px;
 }  
 
 .eficiencia{
@@ -191,12 +233,27 @@ header h1{
     padding: 40px;
     display: flex;
     background-color: #ca9c462a;
+    border-radius: 20px;
 } 
 
-#test img{
+.letras {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+.letras-2 {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    padding: 100px;
+}
+.pb img{
     float: left;
     width: 300px;
-}
+    margin: 30px;
+}   
 
 #test h1{
     color: rgb(42, 140, 165);
@@ -204,29 +261,30 @@ header h1{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    font-variation-settings: "wdth" 100;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    text-align:center;
+    margin:  0px 100px 0px 100px;
 }
 
-#test p{
-    display: contents;
-    flex-direction: column;
-    justify-content: end;
+#test h4{
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    display: flex;
 }
 
 .wellosophy{
     margin: 0px 50px 20px 50px;
-    padding: 50px;
+    padding: 40px;
     display: flex;
     background-color: #ca9c462a;
+    border-radius: 20px;
 }
 
 .wellosophy img{
     float: left;
     width: 300px;
+    margin: 30px;
 }
 
 .wellosophy h1{
@@ -240,6 +298,17 @@ header h1{
     display: flex;
     flex-direction: column;
     text-align:center;
+    justify-content: center ;
+}
+
+.wellosophy h4{
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    display: flex;
+    
 }
 
 #nosotros{
@@ -249,16 +318,15 @@ header h1{
     align-items: center;
     justify-content:space-around;
 }
-#nosotros iframe{
+#nosotros iframe, .carrusel2{
     padding: 10px;
     margin: 10px;
 }
 
-.carrusel2 img{
-    width: 300px;
-    height: 300px;
+.carrusel2{
+    width: 550px;
+    height: 100px;
     margin: auto;
-    overflow-block:auto;
 }
 
 .botonesredes{
@@ -289,4 +357,8 @@ header h1{
     display: inline;
     font-family: 'Dancing Script', cursive;
     text-align: center;
+}
+
+.oculto {
+    display: none;
 }
