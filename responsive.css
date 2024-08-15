@@ -1,0 +1,16 @@
+@media screen and (min-width: 480px) {
+    .bienvenvenida {
+        padding-top: 500px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1300px) {
+    .presentacion img{
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+    }
+}

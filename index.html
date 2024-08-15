@@ -5,18 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="./java.js"></script>
-  <link rel="icon" type="image/png" sizes="32x32" href="imagenes/icono 2.jpg">
+  <link rel="icon" type="image/png" sizes="32x32" href="imagenes/iconopag-removebg-preview.png">
   <title>Beauty from Sweden</title>
 </head>
 
 <body>
   <header>
     <div class="container-md">
-      <nav class="navbar fixed-top navbar-light" style="background-color: #ca9c4673;">
-        <a class="navbar-brand" href="#"> <img src="imagenes/logobeauty-removebg.png"></a>
+      <nav class="navbar fixed-top navbar-light" style="background-color: #80cdd0ad; height: 85px; flex-wrap: nowrap;">
+        <a class="navbar-brand" href="#"> <img src="imagenes/iconopag-removebg-preview.png"></a>
         <ul>
           <a href="#yo">
             <li>¿Quién soy?</li>
@@ -33,35 +34,37 @@
           <a href="https://mx.oriflame.com/business-opportunity?store=MX-damaramtz">
             <li>Registrate gratis en Oriflame</li>
           </a>
-          <a href="#RSS">
-            <li>Redes Sociales</li>
+          <a href="#programas-c">
+            <li>Programas vigentes</li>
           </a>
         </ul>
       </nav>
     </div>
   </header>
 
-  <div class="bienvenida">
-    <h1>¡Bienvenid@ a este espacio!</h1>
-    <p>Conoce una manera diferente de emprender con nosotros</p>
+
+
+  <div id="yo">
+    <div class="bienvenida">
+      <h1>¡Bienvenid@ a este espacio!</h1>
+      <h6>Conoce una manera diferente de emprender con nosotros</h6>
+      <img src="imagenes/quiensoy.jpg" alt="Quien soy">
+    </div>
   </div>
 
-  <div class="container-fluid" id="yo">
-    <div>
-      <img src="imagenes/quiensoy.jpg" alt="Quien soy">
-      <h1>Damara Martínez</h1>
-    </div>
-    <div>
-      <p> ¡Hola! Soy Dam, tengo 24 años, próxima mamá de una bebé, estudiante en Desarrollo Web y emprendedora de
-        corazón, esa fue la razón para convertirme en Embajadora de Oriflame desde hace 2 años.
-        <br> Oriflame me ha ayudado a mejorar cada día un 1% mi estilo de vida y una de mi motivación principal es mi
-        familia, y poder disfrutar la estabilidad entre tiempo-dinero para poder estar con mis seres queridos, poder
-        viajar y tener la libertad de trabajar donde sea es increíble.
-        <br> <strong> Mi meta principal es conectar con más personas a que conozcan que SI hay otra forma de vivir bajo
-          sus propios términos y ayudarlas en un futuro a tener independencia economica y de tiempo.
-      </p> </strong>
-    </div>
+  <div class="presentacion">
+    <h1>Damara Martínez</h1>
+    <p> ¡Hola! Soy Dam, tengo 24 años, próxima mamá de una bebé, estudiante en Desarrollo Web y emprendedora de
+      corazón, razón para convertirme en Embajadora de Oriflame desde hace 2 años.
+      <br> Mi motivación principal es mi familia y Oriflame me ha ayudado a mejorar cada día un 1% mi estilo de vida,
+      poder disfrutar la estabilidad entre tiempo-dinero y así poder estar con mis seres queridos, tener la
+      posibilidad
+      de viajar y tener la libertad de trabajar donde sea es increíble.
+      <br> <strong> Mi meta principal es conectar con más personas a que conozcan que SI hay otra forma de vivir bajo
+        sus propios términos y ayudarlas en un futuro a tener independencia economica y de tiempo.
+    </p> </strong>
   </div>
+
 
 
   <div class="conocenos">
@@ -116,11 +119,12 @@
 
 
   <div id="oriflame">
-    <div class="logo">
+    <div class="t-oriflame">
       <img src="imagenes/logo ori.png" alt="Oriflame Sweden">
       <h1>¿Qué es Oriflame Sweden?</h1>
     </div>
-    <div>
+
+    <div class="p-oriflame">
       <p> Somos una comunidad de belleza y bienestar Europea impulsada por personas con espíritu emprendedor, tu equipo
         de apoyo dispuesto a empoderarte. Juntos, te ayudaremos a forjar tu propio camino hacia el bienestar para que
         puedas disfrutar del viaje, el cuál puede ser tu propio camino desde tener más tiempo para ti y tus seres
@@ -128,49 +132,49 @@
         Sabemos que los productos de Belleza y Bienestar pueden mejorar la calidad de vida e influir positivamente en
         los sentimientos de felicidad, empoderamiento, autoestima y autoimagen. </p>
     </div>
-  </div>
 
-  <div class="contenedores">
-    <div class="historia">
-      <img src="imagenes/nuestrahistoria.jpg" alt="Nuestra historia">
-      <h4>NUESTRA HISTORIA</h4>
-      <div class="oculto" id="contenido1">
-        <p> En 1967, dos empresarios suecos, Jonas y Robert af Jochnick, junto con su amigo Bengt Hellsten, soñaban con
-          crear una empresa que ofreciera productos de bienestar y belleza de alta calidad inspirados en la naturaleza y
-          accesibles a todo el mundo. Hoy continuamos este sueño, viviendo por la emoción de cambiar vidas cada día y
-          crear un mañana mejor.</p>
+    <div class="contenedores">
+      <div class="historia">
+        <img src="imagenes/nuestrahistoria.jpg" alt="Nuestra historia">
+        <h4>NUESTRA HISTORIA</h4>
+        <div class="oculto" id="contenido1">
+          <p> En 1967, dos empresarios suecos, Jonas y Robert af Jochnick, junto con su amigo Bengt Hellsten, soñaban
+            con
+            crear una empresa que ofreciera productos de bienestar y belleza de alta calidad inspirados en la naturaleza
+            y
+            accesibles a todo el mundo. Hoy continuamos este sueño, viviendo por la emoción de cambiar vidas cada día y
+            crear un mañana mejor.</p>
+        </div>
+        <button onclick='muestra_oculta("contenido1")' class="btn" form="contenido1">Ver más🪞</button>
       </div>
-      <button onclick='muestra_oculta("contenido1")' class="btn" style="background-color: rgba(42, 140, 165, 0.548);"
-        form="contenido1">Ver más🪞</button>
-    </div>
 
-    <div class="eficiencia">
-      <img src="./imagenes/eficiencia1.jpg" alt="Eficiencia, Innovacion y Responsable">
-      <h4>EFICIENTE, SEGURA Y RESPONSABLE</h4>
-      <div class="oculto" id="contenido2">
-        <p>Oriflame crea productos suecos de calidad, cuidadosamente diseñados y desarrollados con una filosofía clara.
-          <br> <strong>EFICIENTE:</strong> Respaldado por la ciencia con resultados y beneficios probados
-          <br> <strong>SEGURO:</strong> Siguiendo las normas de seguridad más estrictas, y más allá
-          <br> <strong>RESPONSABLE:</strong> Reduciendo el impacto en el planeta y la sociedad.
-        </p>
+      <div class="eficiencia">
+        <img src="./imagenes/eficiencia1.jpg" alt="Eficiencia, Innovacion y Responsable">
+        <h4>EFICIENTE, SEGURA Y RESPONSABLE</h4>
+        <div class="oculto" id="contenido2">
+          <p>Oriflame crea productos suecos de calidad, cuidadosamente diseñados y desarrollados con una filosofía
+            clara.
+            <br> <strong>EFICIENTE:</strong> Respaldado por la ciencia con resultados y beneficios probados
+            <br> <strong>SEGURO:</strong> Siguiendo las normas de seguridad más estrictas, y más allá
+            <br> <strong>RESPONSABLE:</strong> Reduciendo el impacto en el planeta y la sociedad.
+          </p>
+        </div>
+        <button onclick='muestra_oculta("contenido2")' class="btn" form="contenido2">Ver más🪞</button>
       </div>
-      <button onclick='muestra_oculta("contenido2")' class="btn" style="background-color: rgba(42, 140, 165, 0.548);"
-        form="contenido2">Ver más🪞</button>
-    </div>
 
-    <div class="etica">
-      <img src="imagenes/normas.png" alt="Co-etica">
-      <h4>ESTANDARES QUE NOS RIGEN</h4>
-      <div class="oculto" id="contenido3">
-        <li>Nuestro compromiso por desarrollar productos en los que puedas confiar se define por nuestros altos
-          estándares.</li>
-        <li>Productos no testeados en animales, ética para la producción de los productos.</li>
-        <li>Hechos con productos naturales, de los cuales hay restauraciones como reforestaciones, entre otras.</li>
-        <li>Altos Estandares Europeos, en donde se prohiben hasta 1368 ingredientes que ayudan a tener más calidad en
-          los productos.</li>
+      <div class="etica">
+        <img src="imagenes/normas.png" alt="Co-etica">
+        <h4>ESTANDARES QUE NOS RIGEN</h4>
+        <div class="oculto lista" id="contenido3">
+          <li>Nuestro compromiso por desarrollar productos en los que puedas confiar se define por nuestros altos
+            estándares.</li>
+          <li>Productos no testeados en animales, ética para la producción de los productos.</li>
+          <li>Hechos con productos naturales, de los cuales hay restauraciones como reforestaciones, entre otras.</li>
+          <li>Altos Estandares Europeos, en donde se prohiben hasta 1368 ingredientes que ayudan a tener más calidad en
+            los productos.</li>
+        </div>
+        <button onclick='muestra_oculta("contenido3")' class="btn" form="contenido3">Ver más🪞</button>
       </div>
-      <button onclick='muestra_oculta("contenido3")' class="btn" style="background-color: rgba(42, 140, 165, 0.548);"
-        form="contenido3">Ver más🪞</button>
     </div>
   </div>
 
@@ -204,10 +208,11 @@
 
 
 
-
-
-
-  <div id="nosotros">
+  <div class="programas" id="programas-c">
+    <h4>Programas comerciales</h4>
+    <h6>Vigencia Nov 2024</h6>
+  </div>
+  <div class="nosotros">
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carrusel2" class="carousel-inner">
         <div class="carousel-item active">
@@ -259,10 +264,12 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/V5NtLl4IgFA?si=vObfzCVVkdkIipXH"
+
+    <iframe width="550" height="315" src="https://www.youtube.com/embed/V5NtLl4IgFA?si=vObfzCVVkdkIipXH"
       title="YouTube video player" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
   </div>
 
 
