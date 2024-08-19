@@ -143,8 +143,9 @@ body {
 .cuadros img,
 .cuadros-2 img {
     width: 280px;
-    padding: 20px 20px 10px 20px;
-    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #oriflame {
